@@ -682,3 +682,60 @@ label{
   font-size: 16px;
   font-family: Roboto;
 }
+
+
+
+/* //////////// */
+
+.festival-title{
+  display: flex;
+  gap: 0 50px;
+}
+
+
+.header404{
+  background-image: url('../image/bg404.jpg');
+}
+.title404{
+  text-align: center;
+  font-size: 48px;
+  font-family: "Exo 2", sans-serif;
+  color: #fff;
+}
+.title404 h1{
+  margin-bottom: 0;
+  font-size: 250px;
+}
+.title404 h2{
+  color: #fff;
+}
+.nav404{
+  margin-bottom: 0;
+}
+
+.cal-header{
+  background-image: none;
+}
+
+.calendar-header{
+  text-align: center;
+}
+
+.calendar-table{
+  background-color: #fff;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+table {
+  border-collapse: collapse; /* Убирает двойные границы */
+  width: 100%; /* Задает ширину таблицы */
+  margin: 20px 0; /* Добавляет отступы */
+}
+th, td {
+  border: 1px solid #0D1B2A; /* Граница ячеек */
+  text-align: center; /* Выравнивание текста */
+  padding: 8px; /* Внутренние отступы */
+}
+th {
+  background-color: #D6E0F0; /* Фон заголовка таблицы */
+}
