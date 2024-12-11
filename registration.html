@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Регистрация</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="reg-content">
+      <div>
+        <a href="index.html"><img src="image/logo.svg" alt="logo" class="logo"></a>
+      </div>
+      <div class="reg-forma">
+        <h1>"Моя семья — мой космос"</h1>
+        <div class="reg">
+          <form action="cabinet.html">
+
+            <div>
+              <label for="email">Введите почту </label><br><br>
+              <input type="email" id="email" required placeholder="Почта"><br>
+              <label for="name">Введите имя</label><br><br>
+              <input type="text" id="name" required placeholder="Имя"><br>
+              <label for="fame">Введите фамилию</label><br><br>
+              <input type="text" id="fame" required placeholder="Фамилия"><br>
+              <label for="otch">Отчество</label><br><br>
+              <input type="text" id="otch" required placeholder="Отчество"><br>
+              <label for="pass">Введите пароль</label><br><br>
+              <input type="password" id="pass" required placeholder="Введите пароль"><br>
+            </div>
+            
+
+            <div>
+              <label for="repeatpass">Повторите пароль</label><br><br>
+              <input type="password" id="repeatpass" required><br>
+              <label for="age">Введите возраст</label><br><br>
+              <input type="number" id="age" required placeholder="Возраст"><br>
+              <label for="aged">Введите дату рождения</label><br><br>
+              <input type="date" id="aged" required placeholder="Дата рождения"><br>
+  
+              <select required>
+                <option selected disabled>Выберите пол</option>
+                <option>Женский</option>
+                <option>Мужской</option>
+              </select><br>
+  
+              <label for="photo">Область для загрузки семейной фотографии</label><br><br>
+              <input type="file" required><br>
+  
+              <div class="reg-check">
+                <input type="checkbox" id="check" required>
+                <label for="check">Я даю своё согласие на обработку<br> своих персональных данных</label>
+              </div>
+              <button type="submit" class="solid">РЕГИСТРАЦИЯ</button>
+            </div>
+
+          </form>
+        </div>
+
+        <div class="add-reg">
+          <img src="image/add-reg.svg" alt="add">
+        </div>
+      </div>
+    </div>
+
+  </header>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Личный кабинет</title>
+</head>
+
+<body>
+  <header class="header header-cabinet">
+    <nav class="header-nav nav-cabinet">
+      <a href="index.html"><img src="image/logo.svg" alt="logo" class="logo"></a>
+      <ul class="header-menu">
+        <li class="header-menu-item"><a href="index.html#avt">Авторизация</a></li>
+        <li class="header-menu-item"><a href="index.html#ab">О нас</a></li>
+        <li class="header-menu-item"><a href="index.html#catal">Конкурсы</a></li>
+        <li class="header-menu-item"><a href="index.html#find">Поиск</a></li>
+        <li class="header-menu-item"><a href="index.html#cont">Контакты</a></li>
+
+        <a href="index.html"><button class="more cabiten-btn">ВЫЙТИ ИЗ ПРОФИЛЯ</button></a>
+      </ul>
+    </nav>
+
+    <div class="header-content">
+      <div class="header-content-title title-cab">
+        <h1>Добро пожаловать!</h1>
+        <h3 class="pl85">Вы вошли в свой личный кабинет, где вы можете записаться на интересующие конкурсы и управлять
+          своей регистрацией.</h3>
+      </div>
+    </div>
+
+
+    <div class="cab-div">
+      <div class="cab-text">
+        <h2>Запись на конкурс</h2>
+        <p>Пожалуйста, выберите конкурс, в котором хотите принять участие. Запись доступна только на дату 8 июля 2024
+          года.</p>
+      </div>
+      <div class="cab-forma">
+        <form action="index.html">
+          <select required>
+            <option selected disabled>Выберите из списка</option>
+            <option>Семейное фото под звёздами</option>
+            <option>Космос глазами детей</option>
+            <option>Семейный космический квест</option>
+            <option>Космическая викторина</option>
+            <option>Метеоритный чемпионат</option>
+          </select><br>
+
+          <label for="date">Введите дату </label><br><br>
+          <input type="date" id="date" required min="2024-01-01" max="2024-06-08"><br>
+          <label for="time">Введите время для участия в конкурсе </label><br><br>
+          <input type="time" id="time" required min="09:00" max="21:00" step="3600"><br>
+          <label for="num">Количество участников</label><br><br>
+          <input type="number" id="num" required><br>
+
+          <button class="solid">ЗАПИСАТЬСЯ</button>
+        </form>
+      </div>
+    </div>
+
+  </header>
+</body>
+
+</html>

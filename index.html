@@ -13,15 +13,15 @@
 <body>
   <header class="header">
     <nav class="header-nav">
-      <a href="#"><img src="image/logo.svg" alt="logo" class="logo"></a>
+      <img src="image/logo.svg" alt="logo" class="logo">
       <ul class="header-menu">
-        <li class="header-menu-item"><a href="#">Регистрация</a></li>
-        <li class="header-menu-item"><a href="#">Авторизация</a></li>
-        <li class="header-menu-item"><a href="#">Личный кабинет</a></li>
-        <li class="header-menu-item"><a href="#">О нас</a></li>
-        <li class="header-menu-item"><a href="#">Конкурсы</a></li>
-        <li class="header-menu-item"><a href="#">Поиск</a></li>
-        <li class="header-menu-item"><a href="#">Контакты</a></li>
+        <li class="header-menu-item"><a href="registration.html">Регистрация</a></li>
+        <li class="header-menu-item"><a href="#avt">Авторизация</a></li>
+        <li class="header-menu-item"><a href="cabinet.html">Личный кабинет</a></li>
+        <li class="header-menu-item"><a href="#ab">О нас</a></li>
+        <li class="header-menu-item"><a href="#catal">Конкурсы</a></li>
+        <li class="header-menu-item"><a href="#find">Поиск</a></li>
+        <li class="header-menu-item"><a href="#cont">Контакты</a></li>
 
         <img class="toggle" src="image/toggle.png" alt="toggle">
       </ul>
@@ -42,11 +42,6 @@
         <button class="solid">ПРИСОЕДИНИТЬСЯ</button>
       </div>
     </div>
-
-
-    <div class="arrow">
-      <img src="image/arrow-down.png" alt="arrow">
-    </div>
   </header>
 
 
@@ -55,9 +50,11 @@
     <section class="popular-fest">
       <div class="popular-fest-title pl160">
         <h2>"Популярные конкурсы: станьте частью <br> космического приключения!"</h2>
-        <p class="pl160">"Участвуйте в самых интересных конкурсах Года семьи! Мы подготовили для вас увлекательные викторины,
+        <p class="pl160">"Участвуйте в самых интересных конкурсах Года семьи! Мы подготовили для вас увлекательные
+          викторины,
           творческие задания и выставки, которые объединяют поколения и дарят вдохновение.</p>
-        <p class="pl160">Выберите конкурс, который вам по душе, и станьте частью праздника. Звёздные эмоции гарантированы!"</p>
+        <p class="pl160">Выберите конкурс, который вам по душе, и станьте частью праздника. Звёздные эмоции
+          гарантированы!"</p>
       </div>
 
       <div class="slider-fest pl160">
@@ -102,7 +99,7 @@
 
         <div class="slide">
           <img src="image/fest4.png" alt="fest">
-          <h3>"Покажите свою семью в лучшем свете! Делитесь  моментами и получайте звёздное признание."</h3>
+          <h3>"Покажите свою семью в лучшем свете! Делитесь моментами и получайте звёздное признание."</h3>
           <div class="stars">
             <img src="image/star+.png" alt="star">
             <img src="image/star+.png" alt="star">
@@ -119,7 +116,245 @@
         <img src="image/arrow-right.svg" alt="right">
       </div>
     </section>
+
+
+    <section class="signin pl160" id="avt">
+      <div class="signin-content">
+        <h2>"Войдите в свою галактику возможностей!"</h2>
+        <p class="pl160">"Участвуйте в конкурсах, получайте новости первыми и становитесь частью нашей космической
+          семьи.
+          Авторизуйтесь,
+          чтобы открыть доступ ко всем функциям сайта."</p>
+      </div>
+      <div class="form-content">
+        <form action="">
+          <label for="email">Введите почту </label><br>
+          <input type="email" id="email" placeholder="Почта" required><br>
+          <label for="pass">Введите пароль</label><br>
+          <input type="password" id="pass" placeholder="Пароль" required><br>
+          <a href="#">Восстановить пароль</a>
+          <button type="submit" class="solid mt0">ВОЙТИ</button>
+        </form>
+      </div>
+
+    </section>
+
+    <section class="about  pl160" id="ab">
+      <h2>О нас <br>
+        "Калуга — город семьи и космоса"</h2>
+      <p class="pl160">"Объединяя поколения и вдохновляя на звёздные мечты"</p>
+      <p class="pl160">"Калуга — это не только колыбель космонавтики, но и место, где семейные ценности становятся
+        главной движущей силой.
+        Здесь история и будущее переплетаются, создавая уникальное пространство для творчества, знаний и общения.</p>
+      <p class="pl160">Мы верим, что семья — это целая вселенная, а Калуга — её центр, где звёзды светят для каждого.
+        Наша миссия — вдохновлять, объединять и создавать новые традиции, которые пройдут сквозь поколения."</p>
+      <h3>"Присоединяйтесь к нашей космической семье и станьте частью великой истории!"</h3>
+    </section>
+
+
+
+    <section class="video">
+      <div class="video-content">
+        <h2>"Послание из космоса: вдохновение для каждой семьи"</h2>
+        <p class="pl160">"Слова, которые объединяют поколения"</p>
+        <p class="pl160">"Посмотрите видеобращение, которое напоминает о значимости семьи и нашего стремления к звёздам.
+        </p>
+        <p class="pl160">Это послание — символ единства, вдохновения и общей мечты, что связывает нас с космосом и друг
+          с
+          другом.</p>
+        <p class="pl160">Пусть эти слова станут началом вашего собственного путешествия к новым вершинам!"</p>
+      </div>
+      <video src="image/1102.mp4" controls></video>
+    </section>
+
+
+
+    <section class="catalog pl160" id="catal">
+      <div class="catalog-title">
+        <h2>"Послание из космоса: <br> вдохновение для каждой семьи"</h2>
+        <p class="pl160">"Пять увлекательных конкурсов для всех возрастов. Выбирайте, регистрируйтесь и выигрывайте
+          звёздные призы!"</p>
+      </div>
+
+      <div class="catalog-menu">
+        <div class="catalog-item">
+          <h3>"Семейное фото под звёздами"</h3>
+          <img src="image/cat1.png" alt="item1">
+          <p>"Запечатлейте волшебные моменты под звёздным небом и делитесь своей историей."</p>
+          <p> "Участников: 152"</p>
+          <div class="stars">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star-.png" alt="star">
+          </div>
+          <button class="more">ПЕРЕЙТИ</button>
+        </div>
+
+        <div class="catalog-item">
+          <h3>"Космос глазами детей"</h3>
+          <img src="image/cat2.png" alt="item2">
+          <p>"Пусть ваши дети покажут, каким они видят космос. Победителей ждут призы!"</p>
+          <p>"Участников: 237"</p>
+          <div class="stars">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star-.png" alt="star">
+          </div>
+          <button class="more">ПЕРЕЙТИ</button>
+        </div>
+        <div class="catalog-item">
+          <h3> "Космос: загадки и тайны"</h3>
+          <img src="image/cat3.png" alt="item3">
+          <p>"Тестируйте свои знания о космосе и побеждайте в увлекательной викторине."</p>
+          <p>"Участников: 189"</p>
+          <div class="stars">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star-.png" alt="star">
+          </div>
+          <button class="more">ПЕРЕЙТИ</button>
+        </div>
+        <div class="catalog-item">
+          <h3>"Модель солнечной системы"</h3>
+          <img src="image/cat4.png" alt="item4">
+          <p>"Создайте свою солнечную систему из любых материалов. Чем креативнее — тем лучше!"</p>
+          <p> "Участников: 74"</p>
+          <div class="stars">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star-.png" alt="star">
+          </div>
+          <button class="more">ПЕРЕЙТИ</button>
+        </div>
+        <div class="catalog-item">
+          <h3>"Космос будущего"</h3>
+          <img src="image/cat5.png" alt="item5">
+          <p>"Представьте, как будет выглядеть космос через 100 лет. Ваша идея может стать реальностью!"</p>
+          <p>"Участников: 128"</p>
+          <div class="stars">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star+.png" alt="star">
+            <img src="image/star-.png" alt="star">
+          </div>
+          <button class="more">ПЕРЕЙТИ</button>
+        </div>
+
+
+        <div class="catalog-item" id="find">
+          <h2>"Найдите конкурс по названию или описанию"</h2>
+          <p>"Начните вводить название конкурса или его описание, чтобы найти подходящие события. Например, 'Семейное
+            фото' или 'Космическая викторина'."</p>
+          <input class="cat-inp" type="text" placeholder="Поиск">
+        </div>
+      </div>
+    </section>
+
+
+    <section class="reviews pl160">
+      <div class="reviews-title">
+        <h2>"Отзывы участников: вдохновляйтесь <br>опытом других!"</h2>
+        <p class="pl160">"Узнайте, как прошли наши конкурсы и <br>какие эмоции они вызвали у участников."</p>
+      </div>
+      <div class="reviews-slider">
+        <div class="reviews-move">
+          <img src="image/arrow-left.svg" alt="left">
+          <img src="image/arrow-right.svg" alt="right">
+        </div>
+        <div class="reviews-item">
+          <img src="image/people1.png" alt="people1">
+          <h3>Елена Петрова</h3>
+          <p>"Викторина «Космос: загадки и тайны» была просто захватывающей! Узнала много нового о звездах и планетах.
+            Ребёнок тоже участвовал — много смеялись и учились вместе!"</p>
+          <button class="more">ПРОСМОТРЕТЬ КОНКУРС</button>
+          <p class="mt10"> "20 октября 2024"</p>
+        </div>
+        <div class="reviews-item">
+          <img src="image/people2.png" alt="people2">
+          <h3>Иван Сидоров</h3>
+          <p>"Участвовали с детьми в конкурсе рисунков «Космос глазами детей». Прекрасный конкурс, дети очень довольны,
+            а мы гордимся их работами. Призы были очень креативными!"</p>
+          <button class="more">ПРОСМОТРЕТЬ КОНКУРС</button>
+          <p class="mt10"> "5 декабря 2024"</p>
+        </div>
+        <div class="reviews-item">
+          <img src="image/people3.png" alt="people3">
+          <h3>Ольга Морозова</h3>
+          <p>"Викторина «Космос: загадки и тайны» была просто захватывающей! Узнала много нового о звездах и планетах.
+            Ребёнок тоже участвовал — много смеялись и учились вместе!"</p>
+          <button class="more">ПРОСМОТРЕТЬ КОНКУРС</button>
+          <p class="mt10"> "20 октября 2024"</p>
+        </div>
+      </div>
+
+    </section>
+
+
+
+    <section class="prime pl160">
+      <div class="prime-title">
+        <h2>Подпись на новости мероприятия</h2>
+        <p class="pl160">"Мы ценим ваше участие и будем рады узнать о вашем опыте. Оставьте отзыв о конкурсе, и пусть
+          ваш
+          голос вдохновит других!"</p>
+      </div>
+      <div class="form-content">
+        <form action="">
+          <label for="email">Введите почту </label><br><br>
+          <input type="email" id="email" placeholder="Почта" required> <br>
+          <label for="pass">Введите пароль</label><br><br>
+          <input type="password" id="pass" placeholder="Пароль" required><br>
+
+          <div class="check-prime"> <input type="checkbox" id="check" required><label for="check">Я даю своё согласие на
+              обработку
+              <br> своих персональных данных</label>
+
+          </div>
+
+
+          <button type="submit" class="solid mt0">ПОДПИСАТЬСЯ</button>
+        </form>
+      </div>
+    </section>
   </main>
+
+
+
+
+
+
+  <footer class="footer pl160" id="cont">
+    <div class="contacts">
+      <div class="tel">
+        <h3>Телефон</h3>
+        <a href="tel:+74842234567"> <p>+7 (4842) 23-45-67</p></a>
+      </div>
+      <div class="gmail">
+        <h3>Почта</h3>
+        <a href="mailto:family@cosmos.ru"><p>family@cosmos.ru</p></a>
+      </div>
+    </div>
+    <nav class="fot-nav">
+      <h3>Навигация по сайту</h3>
+      <div class="fot-nav-menu">
+        <a href="#top"><p>Главная</p></a>
+        <a href=""><p>Светлая тема</p></a>
+        <a href="registration.html"><p>Регистрация</p></a>
+        <a href="#catal"><p>Конкурс</p></a>
+        <a href="cabinet.html"><p>Личный кабинет</p></a>
+        <a href=""><p>Страница не найдена</p></a>
+      </div>
+    </nav>
+  </footer>
 </body>
 
 </html>
