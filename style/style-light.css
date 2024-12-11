@@ -1,0 +1,38 @@
+body{
+  background-color: #fff;
+}
+
+.popular-fest-title {
+  margin-bottom: 0;
+}
+
+.signin {
+  margin-top: 350px;
+  padding-top: 100px;
+}
+
+.catalog p{
+  color: #000;
+}
+
+.catalog input::placeholder{
+  color: #000;
+}
+.catalog input{
+  border-color: #000;
+}
+
+.reviews-title p{
+  margin-bottom: 0;
+}
+.reviews-title{
+  margin-bottom: 30px;
+}
+
+.prime-title{
+  margin-bottom: 30px;
+}
+
+.footer{
+  padding-top: 100px;
+}
